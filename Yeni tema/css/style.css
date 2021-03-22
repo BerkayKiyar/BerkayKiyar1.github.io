@@ -1,0 +1,69 @@
+body{
+    background-color: whitesmoke;
+}
+
+.projediv{
+    text-align: center;
+}
+
+.proje{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    display: inline-block;
+}
+
+.clearfix{
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.tarihce{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    color: rgb(94, 97, 93);
+}
+
+.tarihce2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 50px;
+    color: rgb(94, 97, 93);
+}
+
+.card-group :hover{
+    background-color: rgb(29, 28, 28);
+    color: white;
+    transition: ease .5s all;
+}
+
+.row :hover{
+    background-color: black;
+    color: white;
+    transition: ease .5s all;
+}
+
+/* .header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+} */
+
+.bi {
+    color: grey;
+}
+
+/* .carousel-control-next {
+    margin-top: 500px;
+    height: 100px;
+} */
+
+.header {
+    margin-top: 0px;
+}
+
+.fix{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    margin:0;
+}
